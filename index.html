@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firnas Clone Sorta</title>
+    <link rel="stylesheet" href="inex.css">
+</head>
+
+<body>
+    <!-- -------- NAV  and   HERO ----------  -->
+    <div>
+        <nav class="nav active">
+            <div class="container">
+                <a href="#"><img class="logo" src="logo.png" width="150px"></img></a>
+                <div class="navbar-elements">
+                    <ul class="navbar-position" id="MenuItems">
+                    <li class="nav-el"><a href="#" class="current">HOME</a></li>
+                    <li class="nav-el"><a href="#">ABOUT</a></li>
+                    <li class="nav-el"><a href="#">SERVICES<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li class="nav-el"><a href="#">CONTACT</a></li>
+                    <li class="nav-el"><a href=""><i class="fa-brands fa-facebook icons"></i></a></li>
+                    <li class="nav-el"><a href=""><i class="fa-brands fa-instagram icons"></i></a></li>
+                    <li class="nav-el"><a href=""><i class="fa-brands fa-linkedin icons"></i></a></li>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" id="menu-icon" onclick="menutoggle()" ></i> 
+                </div>
+                
+                
+            </div>
+            
+        </nav>
+
+        <div class="hero">
+            <video class="hero-video" autoplay loop muted>
+                <source src="code3.mp4" type="video/mp4">
+            </video>
+            <div class="container-hero">
+                <h1>WE <span id="demo"></span></h1>
+                <p>We design, develop, and deliver comprehensive software, prioritizing user experience, engagement, and
+                    intelligent solutions for diverse platforms.</p>
+                <div class="buttons">
+                    <button class="green-contact-button-glow">Quick Contact<i
+                            class="fa-solid fa-arrow-right"></i></button>
+                    <button class="hollow-learn-button-glow">Learn more</button>
+                </div>
+
+
+            </div>
+               <div class="blue-bg low-opacity"></div>
+        </div>
+    </div>
+
+    <!-- FOR  BOXES  -->
+    <div class="services-container">
+
+        <div class="title-services">
+            <h2>What we <span class="green-color">Do</span></h2>
+        </div>
+
+        <div class="services-box">
+
+            <!-- row 1  -->
+            <div class="row1">
+                <div class="box" id="box1">
+                    <div class="services-top">
+                        <h2>Web Application</h2>
+                        <span class="green-color">Development</span>
+                    </div>
+                    <div class="img-bottom"><img src="box1.png" alt=""></div>
+                </div>
+
+                <div class="box" id="box2">
+                    <div class="services-top">
+                        <h2>Social Media</h2>
+                        <span class="darkblue-color">Marketing</span>
+                    </div>
+                    <div class="img-bottom"><img src="box2.png" alt=""></div>
+                </div>
+
+                <div class="box" id="box3">
+                    <div class="services-top">
+                        <h2>Mobile Application</h2>
+                        <span class="green-color">Development</span>
+                    </div>
+                    <div class="img-bottom"><img src="box3.png" alt=""></div>
+                </div>
+
+            </div>
+
+            <!-- row 2  -->
+            <div class="row2">
+                <div class="box" id="box4">
+                    <div class="services-top">
+                        <h2>Ui/Ux</h2>
+                        <span class="darkblue-color">Designing</span>
+                    </div>
+                    <div class="img-bottom"><img src="box4.png" alt=""></div>
+                </div>
+
+                <div class="box" id="box5">
+                    <div class="services-top">
+                        <h2>Artificial</h2>
+                        <span class="green-color">intelligence</span>
+                    </div>
+                    <div class="img-bottom"><img src="box5.png" alt=""></div>
+                </div>
+
+                <div class="box" id="box6">
+                    <div class="services-top">
+                        <h2>Brand Identity</h2>
+                        <span class="green-color"> Design</span>
+                    </div>
+                    <div class="img-bottom"><img src="box6.png" alt=""></div>
+                </div>
+            </div>
+
+            <!-- row 3  -->
+            <div class="row3">
+                <div class="half-box" id="box7">
+                    <div class="services-top">
+                        <h2>Search Engine</h2>
+                        <span class="green-color">Optimization</span>
+                    </div>
+                    <div class="img-bottom"><img src="box7.png" alt=""></div>
+                </div>
+                <div class="half-box" id="box8">
+                    <div class="services-top">
+                        <h2>Embedded</h2>
+                        <span class="darkblue-color">Linux</span>
+                    </div>
+                    <div class="img-bottom"><img src="box8.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ------- FOR  PROJECTS  PREVIEW  SECTION --------->
+    <div class="project-container">
+        <div class="project-title">
+            <h1>See our <span>Work</span></h1>
+
+            <p>Explore our portfolio to see how we transform ideas into exceptional digital experiences. From creative
+                design to innovative development, our work speaks for itself.</p>
+        </div>
+
+        <div class="project-boxes">
+            <div class="pro-row">
+                <img src="pro1.png" alt="">
+                <img src="pro2.png" alt="">
+                <img src="pro3.png" alt="">
+                <img src="pro4.png" alt="">
+                <img src="pro5.png" alt="">
+                <img src="pro6.png" alt="">
+                <img src="pro7.png" alt="">
+                <img src="pro8.png" alt="">
+                <img src="pro9.png" alt="">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -------  technologoies -------  -->
+    <div class="tech-container">
+        <div class="tech-top">
+            <h1>Technologies We <span>Work With</span></h1>
+            <p>Firnas.tech leverages transformative technologies to accelerate our enterprise software development for
+                unique business needs.</p>
+        </div>
+
+
+        <div class="tech-bottom">
+            <div class="tech-element"><img src="angular.webp" alt=""><small>Angular</small></div>
+            <div class="tech-element"><img src="vueJs.webp" alt=""><small>Vue.js</small></div>
+            <div class="tech-element"><img src="angular.webp" alt=""><small>React</small></div>
+            <div class="tech-element"><img src="nodejs.webp" alt=""><small>NodeJs</small></div>
+            <div class="tech-element"><img src="django.webp" alt=""><small>Django</small></div>
+            <div class="tech-element"><img src="laravel.webp" alt=""><small>Laravel</small></div>
+            <div class="tech-element"><img src="python.webp" alt=""><small>Python</small></div>
+            <div class="tech-element"><img src="java.webp" alt=""><small>Java</small></div>
+            <div class="tech-element"><img src="julia.webp" alt=""><small>Julia</small></div>
+            <div class="tech-element"><img src="lisp.webp" alt=""><small>Lisp</small></div>
+            <div class="tech-element"><img src="scala.webp" alt=""><small>Scala</small></div>
+            <div class="tech-element"><img src="tenserflow.webp" alt=""><small>Tensorflow</small></div>
+            <div class="tech-element"><img src="pyTorch.webp" alt=""><small>PyTorch</small></div>
+            <div class="tech-element"><img src="vueJs.webp" alt=""><small>VueJs</small></div>
+            <div class="tech-element"><img src="docker.webp" alt=""><small>Docker</small></div>
+            <div class="tech-element"><img src="mysql.webp" alt=""><small>mySQL</small></div>
+            <div class="tech-element"><img src="mongoDb.webp" alt=""><small>MongoDB</small></div>
+            <div class="tech-element"><img src="mySqlDolphin.webp" alt=""><small></small><small>mySqL</small></div>
+            <div class="tech-element"><img src="aws.webp" alt=""><small>AWS</small></div>
+            <div class="tech-element"><img src="php.webp" alt=""><small>PHP</small></div>
+            <div class="tech-element"><img src="jira.webp" alt=""><small>Jira</small></div>
+            <div class="tech-element"><img src="slack.webp" alt=""><small>Slack</small></div>
+            <div class="tech-element"><img src="wordpress.webp" alt=""><small>WordPress</small></div>
+            <div class="tech-element"><img src="shopify.webp" alt=""><small>Shopify</small></div>
+        </div>
+
+    </div>
+    <!-- Testimonial  -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="test-content">
+                <h1>Our clients simply love <span>what we do.</span></h1>
+                <p>Proud to serve as the innovation partner for industry leaders who have experienced our expertise and
+                    excellence firsthand.</p>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div>
+
+
+                        <p>"They have also been easily accessible and responsive with my questions and concerns along
+                            the
+                            way. Firnas Tech (Pvt) Ltd. managed to provide successful support and development in a
+                            timely
+                            manner."</p>
+                    </div>
+                    <div class="test-card-footer">
+                        <img src="ava.webp" alt="">
+                        <div class="author">
+                            <h3>Ava Mitchell</h3>
+                            <span class="tag">Director</span>
+                        </div>
+                        <div class="company">
+                            <span class="placeholder">Vivo Group</span>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="col-3">
+                    <div>
+
+
+                        <p>"Incredible service! The team delivered a stunning project ahead of schedule. Their
+                            creativity and professionalism are unmatched. Highly recommended for any web development
+                            needs! Truly exceptional work throughout."</p>
+                    </div>
+                    <div class="test-card-footer">
+                        <img src="michaelwebp.webp" alt="">
+                        <div class="author">
+                            <h3>Michael Guzman</h3>
+                            <span class="tag">Director</span>
+                        </div>
+                        <div class="company">
+                            <span class="placeholder">Elast X</span>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="col-3">
+                    <div>
+
+
+                        <p>"One of the most professional software developers. The workers are very cooperative, and
+                            customer services are outstanding. Highly recommended for development work! Truly
+                            exceptional service delivered."</p>
+                    </div>
+                    <div class="test-card-footer">
+                        <img src="oskar.webp" alt="">
+                        <div class="author">
+                            <h3>Oskar Karlsson</h3>
+                            <span class="tag">Director</span>
+                        </div>
+                        <div class="company">
+                            <span class="placeholder">Vivo Group</span>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+       <!-- ------  For  Accreditations ------  -->
+   <div class="credits-container">
+    <div class="credits-top">
+        <h2 class="blueGray-h2">Pull the trigger!</h2>
+        <h2 class="darkBlue-h2">Let's bring your</h2>
+        <h2 class="darkBlue-h2"> vision to life.</h2>
+        <button class="green-contact-button-glow small-btn">Let's work Together</button>
+           
+    </div>
+
+    <div class="credits-bottom">
+        <div class="credits-bottom-title">
+          <h2 class="darkBlue-h2"><span>Our</span> Accreditation</h2>
+  
+        </div>
+
+       
+        <div class="LogoSlider">
+             <li><img src="logo1.webp" alt="" width="220px"></li>
+             <li><img src="logo2.webp" alt="" width="220px"></li>
+             <li><img src="logo3.webp" alt="" width="220px"></li>
+             <li><img src="logo4.webp" alt="" width="220px"></li>
+             <li><img src="logo5.webp" alt="" width="220px"></li>
+             <li><img src="logo6.webp" alt="" width="220px"></li>
+             <li><img src="logo7.webp" alt="" width="220px"></li>
+             <li><img src="logo8.webp" alt="" width="220px"></li>
+             <li><img src="logo9.webp" alt="" width="220px"></li>
+        </div>
+    
+
+    </div>
+   </div>
+
+    <!-- ------ Footer -------   -->
+    <div class="footer">
+
+
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="footer-content">
+                    <h2>Global office locations</h2>
+                </div>
+                <div class="row">
+                    <div class="col-fot" style=" justify-content: flex-end; display: flex; flex-direction: column;">
+
+                        <img src="Flag_map_of_Pakistan.png" alt="" class="country-flag" id="pak">
+                        <h2 class="office">Pakistan office</h2>
+                        <p>Firnas tech, Javeed Shaheed Rd, COMSATS University, Abbottabad.</p>
+                        <h2><i class="fa-solid fa-phone"></i>+92 (312) 068 3400</h2>
+                    </div>
+                    <div class="col-fot" style=" justify-content: flex-end; display: flex; flex-direction: column;">
+                        <img src="pngtree-usa-map-flag-geography-png-image_10000584.png" alt="" id="usa">
+                        <h2 class="office">USA OFFICE</h2>
+                        <p>400, Capitol Mall, Sacramento, California, USA</p>
+                        <h2><i class="fa-solid fa-phone"></i>+1 (650) 353 8485</h2>
+
+
+                    </div>
+                    <div class="col-fot" style=" justify-content: flex-end; display: flex; flex-direction: column;">
+                        <img src="Flag-map_of_the_United_Kingdom.svg.png" alt="" id="uk">
+                        <h2 class="office">UK OFFICE</h2>
+                        <p>260 Bastable Avenue, Barking, London, UK</p>
+                        <h2><i class="fa-solid fa-phone"></i>+44 (786) 316 37 71</h2>
+
+                    </div>
+
+                    <div class="col-fot" style=" justify-content: flex-end; display: flex; flex-direction: column;">
+                        <img src="flag-map-of-sweden-logo-648B883DA1-seeklogo.com_.png" alt="" id="sweden">
+                        <h2 class="office">SWEDEN OFFICE</h2>
+                        <p>Malmvägen 2B , 19161 Sollentuna Sweden, Stockholm, Sweden</p>
+                        <h2><i class="fa-solid fa-phone"></i>+46 (73) 729 55 89</h2>
+                    </div>
+
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --------  testimonial-footer --------- -->
+    <div class="legacy-footer" style="background-color: #081C41;">
+        <div class="contact">
+            <span>Contact</span>
+            <h1>+92 312 068 3400</h1>
+            <h1>info@firnas.tech</h1>
+        </div>
+
+
+        <div class="legacy-logo">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="left">
+            <div class="footer-icons">
+                <li><a href=""><i class="fa-brands fa-facebook icons"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram icons"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin icons"></i></a></li>
+            </div>
+            <div class="copyright-text">
+                <small>© 2024 Firnas.tech (Pvt) Ltd. All Rights</small>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ---------  JavaScript -------  -->
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/a20bdf8ea3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
